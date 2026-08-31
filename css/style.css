@@ -12,6 +12,6 @@ body {
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
-	background: #0250c5;
-	background: linear-gradient(to right, #0250c5, #d43f8d);
+	background: #ff00cc;
+	background: linear-gradient(to right, #ff00cc, #333399);
 }
