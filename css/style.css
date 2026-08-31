@@ -23,3 +23,7 @@ body {
 	padding: 10px;
 	max-width: 1050px;
 }
+
+section {
+	background-color: #ffff;
+}
