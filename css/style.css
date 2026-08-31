@@ -31,3 +31,8 @@ section {
 .title {
 	text-transform: uppercase;
 }
+
+.tools-board {
+	width: 210px;
+	padding: 15px 22px 0;
+}
