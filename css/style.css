@@ -15,3 +15,11 @@ body {
 	background: #ac32e4;
 	background: linear-gradient(to right, #ac32e4, #7918f2, #4801ff);
 }
+
+.container {
+	display: flex;
+	width: 100%;
+	gap: 10px;
+	padding: 10px;
+	max-width: 1050px;
+}
