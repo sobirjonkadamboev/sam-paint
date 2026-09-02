@@ -1,4 +1,5 @@
-const canvas = document.querySelector('canvas')
+const canvas = document.querySelector('canvas'),
+	toolButtons = document.querySelectorAll('.tool')
 let context = canvas.getContext('2d'),
 	isDrawing = false,
 	brushWidth = 5
