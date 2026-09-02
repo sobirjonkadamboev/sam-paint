@@ -54,7 +54,7 @@ section {
 	padding-left: 10px;
 }
 .option:is(:hover, .active) :where(span, label) {
-	color: #4a98f7;
+	color: #01089a;
 }
 .option #fill-color {
 	cursor: pointer;
