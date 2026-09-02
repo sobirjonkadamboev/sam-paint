@@ -20,6 +20,7 @@ window.addEventListener('load', () => {
 //Start Drawing
 const startDraw = e => {
 	isDrawing = true
+	snapshot = context.getImageData(0, 0, canvas.width, canvas.height)
 	prevMouseX = e.offsetX
 	prevMouseY = e.offsetY
 	context.beginPath()
