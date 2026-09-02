@@ -11,4 +11,4 @@ const drawing = e => {
 	context.stroke()
 }
 
-canvas.addEventListener('mouseover', drawing)
+canvas.addEventListener('mousemove', drawing)
