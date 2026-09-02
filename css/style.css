@@ -41,4 +41,7 @@ section {
 	margin-bottom: 20px;
 }
 
-.row .op
+.row .options {
+	list-style: none;
+	margin: 10px 0 0 5px;
+}
