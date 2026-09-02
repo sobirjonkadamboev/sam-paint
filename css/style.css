@@ -46,7 +46,7 @@ section {
 	margin: 10px 0 0 5px;
 }
 
-.row .options .option {
+.row .figures .option {
 	display: flex;
 	cursor: pointer;
 	align-items: center;
