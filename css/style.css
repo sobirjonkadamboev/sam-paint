@@ -84,7 +84,7 @@ section {
 	margin-top: 10px;
 }
 
-.colors .figures {
+.colors {
 	display: flex;
 	justify-content: space-between;
 }
@@ -95,4 +95,24 @@ section {
 	border-radius: 50%;
 	margin-top: 3px;
 	position: relative;
+}
+
+.colors .black {
+	background: #000;
+}
+
+.colors .red {
+	background: #f00;
+}
+
+.colors .green {
+	background: #0f0;
+}
+
+.colors .blue {
+	background: #00f;
+}
+
+.colors .yellow {
+	background: #ff0;
 }
