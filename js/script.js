@@ -17,9 +17,7 @@ const drawing = e => {
 	context.stroke()
 }
 
-const stopDraw = () => {
-	isDrawing = false
-}
+const stopDraw = () => (isDrawing = false)
 
 canvas.addEventListener('mousedown', startDraw)
 canvas.addEventListener('mousemove', drawing)
