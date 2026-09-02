@@ -7,9 +7,12 @@ window.addEventListener('load', () => {
 	canvas.height = canvas.offsetHeight
 })
 
-const startDraw = () => {}
+const startDraw = () => {
+	isDrawing = true
+}
 
 const drawing = e => {
+	if (!isDrawing) return
 	context.lineTo(e.offsetX, e.offsetY)
 	context.stroke()
 }
