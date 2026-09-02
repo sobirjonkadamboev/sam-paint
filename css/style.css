@@ -67,3 +67,13 @@ section {
 .option:is(:hover, .active) :where(span, label) {
 	color: #4801ff;
 }
+
+.option #fill-color {
+	cursor: pointer;
+	height: 14px;
+	width: 14px;
+}
+
+#fill-color:checked ~ label {
+	color: #4801ff;
+}
