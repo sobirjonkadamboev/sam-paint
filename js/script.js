@@ -19,6 +19,8 @@ window.addEventListener('load', () => {
 //Start Drawing
 const startDraw = e => {
 	isDrawing = true
+	prevMouseX = e.offsetX
+	prevMouseY = e.offsetY
 	context.beginPath()
 	context.lineWidth = brushWidth
 }
