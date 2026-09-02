@@ -53,7 +53,7 @@ section {
 	margin-bottom: 10px;
 }
 
-.option:is(:hover, .active) img {
+.row .option .option:is(:hover, .active) img {
 	filter:
 		invert(17%),
 		sepia(90%),
