@@ -77,3 +77,9 @@ section {
 #fill-color:checked ~ label {
 	color: #4801ff;
 }
+
+.option #size-slider {
+	width: 100%;
+	height: 5px;
+	margin-top: 10px;
+}
