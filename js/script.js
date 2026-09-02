@@ -3,7 +3,8 @@ const canvas = document.querySelector('canvas'),
 
 let context = canvas.getContext('2d'),
 	isDrawing = false,
-	brushWidth = 5
+	brushWidth = 5,
+	selectedTool = 'brush'
 
 window.addEventListener('load', () => {
 	canvas.width = canvas.offsetWidth
