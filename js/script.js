@@ -1,5 +1,6 @@
 const canvas = document.querySelector('canvas'),
 	toolButtons = document.querySelectorAll('.tool')
+
 let context = canvas.getContext('2d'),
 	isDrawing = false,
 	brushWidth = 5
@@ -24,6 +25,12 @@ const drawing = e => {
 const stopDraw = () => {
 	isDrawing = false
 }
+
+toolButtons.forEach(btn => {
+	btn.addEventListener('click', () => {
+		console.log(btn)
+	})
+})
 
 canvas.addEventListener('mousedown', startDraw)
 canvas.addEventListener('mousemove', drawing)
