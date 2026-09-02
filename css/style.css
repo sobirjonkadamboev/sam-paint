@@ -63,3 +63,5 @@ section {
 	cursor: pointer;
 	padding-left: 10px;
 }
+
+.option:is(:hover, .active) :where(span, label)
