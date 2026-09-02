@@ -32,7 +32,7 @@ section {
 }
 
 .tools-board {
-	width: 210px;
+	width: 250px;
 	padding: 15px 22px 0;
 }
 
@@ -89,30 +89,18 @@ section {
 	justify-content: space-between;
 }
 
-.colors .option {
+.colors + .figures {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.colors + .figures .option {
 	height: 20px;
 	width: 20px;
 	border-radius: 50%;
 	margin-top: 3px;
 	position: relative;
-}
-
-.colors .black {
-	background: #000;
-}
-
-.colors .red {
-	background: #f00;
-}
-
-.colors .green {
-	background: #0f0;
-}
-
-.colors .blue {
-	background: #00f;
-}
-
-.colors .yellow {
-	background: #ff0;
+	flex-shrink: 0;
 }
