@@ -19,8 +19,16 @@ const startDraw = () => {
 
 const drawing = e => {
 	if (!isDrawing) return
-	context.lineTo(e.offsetX, e.offsetY)
-	context.stroke()
+
+	switch (selectedTool) {
+		case 'brush':
+			context.lineTo(e.offsetX, e.offsetY)
+			context.stroke()
+			break
+
+		default:
+			break
+	}
 }
 
 const stopDraw = () => {
