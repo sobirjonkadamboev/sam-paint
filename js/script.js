@@ -28,6 +28,7 @@ const stopDraw = () => {
 
 toolButtons.forEach(btn => {
 	btn.addEventListener('click', () => {
+		document.querySelector('.options .active')
 		console.log(btn.id)
 	})
 })
