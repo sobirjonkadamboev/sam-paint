@@ -55,7 +55,7 @@ section {
 
 .option:is(:hover, .active) img {
 	filter:
-		invert(20%),
+		invert(17%),
 		sepia(90%),
 		saturate(3000%),
 		hue-rotate(900deg),
