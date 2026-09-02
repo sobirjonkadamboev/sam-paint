@@ -26,7 +26,14 @@ const startDraw = e => {
 }
 
 //Draw rectangle
-const drawRectangle = e => {}
+const drawRectangle = e => {
+	context.strokeRect(
+		e.offsetX,
+		e.offsetY,
+		prevMouseX - e.offsetX,
+		prevMouseY - e.offsetY,
+	)
+}
 
 //Selected tools and drawing them
 
