@@ -60,5 +60,5 @@ section {
 .option:where(span, label) {
 	color: #5a6168;
 	cursor: pointer;
-	padding-left: 10px;
+	padding-left: 100px;
 }
