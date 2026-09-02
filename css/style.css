@@ -62,7 +62,7 @@ section {
 	width: 14px;
 }
 #fill-color:checked ~ label {
-	color: #0a4a98;
+	color: #4a98f7;
 }
 .option #size-slider {
 	width: 100%;
