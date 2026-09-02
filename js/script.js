@@ -32,7 +32,7 @@ toolButtons.forEach(btn => {
 		document.querySelector('.options .active').classList.remove('active')
 		btn.classList.add('active')
 		selectedTool = btn.id
-		console.log(btn.id)
+		console.log(selectedTool)
 	})
 })
 
