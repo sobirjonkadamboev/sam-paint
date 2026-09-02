@@ -43,7 +43,7 @@ const drawRectangle = e => {
 
 const drawing = e => {
 	if (!isDrawing) return
-
+	context.putImageData(snapshot, 0, 0)
 	switch (selectedTool) {
 		case 'brush':
 			context.lineTo(e.offsetX, e.offsetY)
