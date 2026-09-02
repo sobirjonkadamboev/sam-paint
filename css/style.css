@@ -12,12 +12,7 @@ body {
 	justify-content: center;
 	min-height: 100vh;
 	background: rgb(2, 0, 36);
-	background: linear-gradient(
-		90deg,
-		rgba(2, 0, 36, 1) 0%,
-		rgba(9, 9, 121, 1) 35%,
-		rgba(0, 212, 255, 1) 100%
-	);
+	background: linear-gradient(to right, #ac32e4, #7918f2, #4801ff);
 }
 .container {
 	display: flex;
@@ -50,7 +45,8 @@ section {
 	margin-bottom: 10px;
 }
 .option:is(:hover, .active) img {
-	filter: invert(17%) sepia(90%) saturate(3000%) hue-rotate(900deg) brightness(100%) contrast(100%);
+	filter: invert(17%) sepia(90%) saturate(3000%) hue-rotate(900deg)
+		brightness(100%) contrast(100%);
 }
 .option :where(span, label) {
 	color: #5a6168;
