@@ -45,3 +45,10 @@ section {
 	list-style: none;
 	margin: 10px 0 0 5px;
 }
+
+.row .options .option {
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	margin-bottom: 10px;
+}
