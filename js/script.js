@@ -1,22 +1,28 @@
+//Global Variables
 const canvas = document.querySelector('canvas'),
 	toolButtons = document.querySelectorAll('.tool')
 
+//Local variables
 let context = canvas.getContext('2d'),
 	isDrawing = false,
 	brushWidth = 5,
 	selectedTool = 'brush'
 
+//Set canvas width and height
 window.addEventListener('load', () => {
 	canvas.width = canvas.offsetWidth
 	canvas.height = canvas.offsetHeight
 })
 
+//Start Drawing
 const startDraw = () => {
 	isDrawing = true
 	context.beginPath()
 	context.lineWidth = brushWidth
 }
 
+//Selected tools and drawing them
+const drawRectangle = () => {}
 const drawing = e => {
 	if (!isDrawing) return
 
@@ -26,6 +32,9 @@ const drawing = e => {
 			context.stroke()
 			break
 
+		case 'rectangle':
+			drawRectangle()
+			break
 		default:
 			break
 	}
