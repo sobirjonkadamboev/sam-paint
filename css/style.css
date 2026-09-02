@@ -62,7 +62,7 @@ section {
 	width: 14px;
 }
 #fill-color:checked ~ label {
-	color: #4a98f7;
+	color: #01089a;
 }
 .option #size-slider {
 	width: 100%;
@@ -137,8 +137,8 @@ section {
 	background: #6c757d;
 }
 .buttons .save-img {
-	background: #4a98f7;
-	border: 1px solid #4a98f7;
+	background: #01089a;
+	border: 1px solid #01089a;
 }
 .drawing-board {
 	flex: 1;
