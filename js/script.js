@@ -8,7 +8,8 @@ let context = canvas.getContext('2d'),
 	brushWidth = 5,
 	selectedTool = 'brush',
 	prevMouseX,
-	prevMouseY
+	prevMouseY,
+	snapshot
 
 //Set canvas width and height
 window.addEventListener('load', () => {
