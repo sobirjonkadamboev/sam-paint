@@ -57,8 +57,9 @@ section {
 		brightness(100%) contrast(100%);
 }
 
-.option:where(span, label) {
+.option span,
+.option label {
 	color: #5a6168;
 	cursor: pointer;
-	padding-left: 100px;
+	padding-left: 10px;
 }
