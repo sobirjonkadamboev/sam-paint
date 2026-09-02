@@ -83,3 +83,8 @@ section {
 	height: 5px;
 	margin-top: 10px;
 }
+
+.colors .options {
+	display: flex;
+	justify-content: space-between;
+}
