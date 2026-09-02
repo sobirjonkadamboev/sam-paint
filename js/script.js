@@ -47,7 +47,7 @@ const drawing = e => {
 			break
 
 		case 'rectangle':
-			drawRectangle()
+			drawRectangle(e)
 			break
 		default:
 			break
