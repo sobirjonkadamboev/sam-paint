@@ -12,7 +12,6 @@ body {
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
-	background: #ac32e4;
 	background: linear-gradient(to right, #ac32e4, #7918f2, #4801ff);
 }
 
@@ -25,7 +24,7 @@ body {
 }
 
 section {
-	background-color: #ffff;
+	background-color: #fff;
 }
 
 .title {
@@ -54,11 +53,7 @@ section {
 }
 
 .option:is(:hover, .active) img {
-	filter:
-		invert(17%),
-		sepia(90%),
-		saturate(3000%),
-		hue-rotate(900deg),
+	filter: invert(17%) sepia(90%) saturate(3000%) hue-rotate(900deg)
 		brightness(100%) contrast(100%);
 }
 
