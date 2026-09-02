@@ -6,7 +6,9 @@ const canvas = document.querySelector('canvas'),
 let context = canvas.getContext('2d'),
 	isDrawing = false,
 	brushWidth = 5,
-	selectedTool = 'brush'
+	selectedTool = 'brush',
+	prevMouseX,
+	prevMouseY
 
 //Set canvas width and height
 window.addEventListener('load', () => {
@@ -15,14 +17,17 @@ window.addEventListener('load', () => {
 })
 
 //Start Drawing
-const startDraw = () => {
+const startDraw = e => {
 	isDrawing = true
 	context.beginPath()
 	context.lineWidth = brushWidth
 }
 
+//Draw rectangle
+const drawRectangle = e => {}
+
 //Selected tools and drawing them
-const drawRectangle = () => {}
+
 const drawing = e => {
 	if (!isDrawing) return
 
@@ -40,7 +45,7 @@ const drawing = e => {
 	}
 }
 
-const stopDraw = () => {
+const stopDraw = e => {
 	isDrawing = false
 }
 
